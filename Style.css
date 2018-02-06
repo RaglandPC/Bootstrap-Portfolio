@@ -12,6 +12,13 @@ a {
 
 }
 
+.page-header {
+    margin-left: 433px;
+}
+img {
+    margin-left: 200px;
+    margin-top: 9px;
+}
 
 h1,h2,h3 {
 	margin:0 0 35px 0;
@@ -51,8 +58,8 @@ hr {
 }
 
 .img-thumbnail {
-    width: 150px;
-    height:150px;
+    width: 200px;
+    height:200px;
 
 }
 
