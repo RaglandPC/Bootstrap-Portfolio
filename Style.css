@@ -27,18 +27,24 @@ p{
     font-family: 'Patua One', cursive;
 }
 a{
-	color:#26a5d3;
+	color:black;
 }
 a:hover,a:focus{
 	text-decoration:none;
-    color:#26a5d3;
+    color:black;
     
+}
+
+.center_div{
+    margin: 0 auto;
+    width:70% /* value of your choice which suits your alignment */
 }
 
 #contact{
 	background:#a54949;
-	color:#26a5d3;
-	padding-bottom:80px;
+	color:black;
+    padding-bottom:80px;
+    size:200px;
 }
 
 textarea.form-control{
@@ -46,7 +52,7 @@ textarea.form-control{
 }
 
 hr {
-    background: #26a5d3;
+    background: black;
 
 }
 
@@ -60,7 +66,8 @@ hr {
 
 /* Cusom Button */
 .btn-custom {
-    background-color: #26a5d3;
+    background-color: black;
+    color: white;
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -82,7 +89,7 @@ hr {
 .gallery-title
 {
     font-size: 36px;
-    color: #26a5d3;
+    color: black;
     text-align: center;
     font-weight: 500;
     margin-bottom: 40px;
