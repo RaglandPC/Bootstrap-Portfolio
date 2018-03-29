@@ -4,19 +4,26 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     background: #a54949;
 
-	
+
 }
 
 a {
     font-family: 'Patua One', cursive;
-
 }
 
+#members {
+	text-shadow: 1px 2px 1px white;
+}
+
+.bg-dark {
+	text-shadow: 1px 3px 1px red;
+}
 
 h1,h2,h3 {
 	margin:0 0 35px 0;
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
+	text-shadow: 1px 3px 1px white;
 	letter-spacing:1px;
 }
 
@@ -24,6 +31,7 @@ p{
 	margin:0 0 25px;
 	font-size:18px;
     line-height:1.6em;
+
     font-family: 'Patua One', cursive;
 }
 a{
@@ -32,7 +40,7 @@ a{
 a:hover,a:focus{
 	text-decoration:none;
     color:black;
-    
+
 }
 
 .center_div{
@@ -129,9 +137,10 @@ footer{
      height: 35px;
     font-family: 'Patua One', cursive;
      text-align: center;
+		 text-shadow: 1px 3px 1px red;
      color: #fff;
  }
- 
+
  footer p {
      padding: 10.5px;
      margin: 0px;
