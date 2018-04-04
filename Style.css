@@ -1,19 +1,24 @@
-body{
+body, html{
 	width:100%;
 	height:100%;
     font-family: 'Roboto Condensed', sans-serif;
-    background: #a54949;
+	background-image: url(Img/wood.png);
 
 
 }
+
+.navbar {
+
+    background:rgb(255, 255, 255);
+
+}
+
 
 a {
     font-family: 'Patua One', cursive;
 }
 
-#members {
-	text-shadow: 1px 2px 1px white;
-}
+
 
 .bg-dark {
 	text-shadow: 1px 3px 1px red;
@@ -23,7 +28,7 @@ h1,h2,h3 {
 	margin:0 0 35px 0;
 	font-family: 'Patua One', cursive;
 	text-transform: uppercase;
-	text-shadow: 1px 3px 1px white;
+
 	letter-spacing:1px;
 }
 
@@ -49,7 +54,6 @@ a:hover,a:focus{
 }
 
 #contact{
-	background:#a54949;
 	color:black;
     padding-bottom:80px;
     size:200px;
@@ -65,8 +69,8 @@ hr {
 }
 
 .img-thumbnail {
-    width: 200px;
-    height:180px;
+    width: 300px;
+    height:300px;
 
 }
 
@@ -129,7 +133,7 @@ hr {
 /* Footer */
 
 footer{
-    background-color: #212529;
+    background-color:rgb(255, 255, 255);
      position: fixed;
      bottom: 0;
      left: 0;
@@ -137,8 +141,8 @@ footer{
      height: 35px;
     font-family: 'Patua One', cursive;
      text-align: center;
-		 text-shadow: 1px 3px 1px red;
-     color: #fff;
+
+     color: black;
  }
 
  footer p {
