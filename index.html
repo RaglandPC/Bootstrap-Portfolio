@@ -5,9 +5,9 @@
 
 
   <title> Portfolio </title>
-    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
@@ -21,31 +21,48 @@
 <!-- Nav bar -->
 <nav class="navbar navbar-expand-lg mb-4 top-bar navbar-inverse-top sps sps--abv">
   <div class="container">
-<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-<a class="navbar-brand mx-auto"><span>Jacob Ragland</span></a>
-<div class="collapse navbar-collapse" id="navbarCollapse1">
-  <ul class="navbar-nav ml-auto">
-   <li class="nav-item"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
-  <li class="nav-item"> <a class="nav-link" href="portfolio.html">Portfolio</a> </li>
-  <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
-  <li class="nav-item"> <a class="nav-link" href="contact.html">Still need to fix the NavBar so its mobile friendly!</a> </li>
-</div>
-      </div>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand mx-auto">
+      <span>Jacob Ragland</span>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarCollapse1">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Still need to fix the NavBar so its mobile friendly!</a>
+        </li>
+    </div>
+  </div>
 </nav>
 
 <body>
 
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-md-11">
         <div class="page-header">
           <h1>About Me</h1>
         </div>
         <div class="row">
-          <div class="col-md-">
-            <img src="Img/jake.jpg"  class="img-thumbnail">
+          <div class="col-md-5">
+            <img src="Img/jake.jpg" class="img-thumbnail">
+            <br>
+            <br>
+            <br>
+            <button type="button" class="btn btn-danger btn-lg" onclick=" relocate_home()">My Resume</button>
           </div>
           <div class="col-md-6">
             <p>I'm currently a student at Unversity of Kansas coding Boot Camp Full Stack Developer program. I'm interested
@@ -66,7 +83,11 @@
     <p>© 2017 Jacob Ragland, All rights reserved.</p>
   </footer>
 
-
+  <script>
+    function relocate_home() {
+      location.href = "KU coding Resume.pdf";
+    } 
+  </script>
 
 
 

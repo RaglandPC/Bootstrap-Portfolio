@@ -74,7 +74,9 @@ hr {
 
 }
 
-
+button {
+    width: 300px;
+}
 
 /* Cusom Button */
 .btn-custom {
