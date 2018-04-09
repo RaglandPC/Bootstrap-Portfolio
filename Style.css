@@ -78,9 +78,15 @@ button {
     width: 300px;
 }
 
+#members {
+    font-size:22px;
+    font-family: 'Patua One', cursive;
+}
+
 /* Cusom Button */
 .btn-custom {
-    background-color: black;
+    background-color: #dc3545;
+    border-color: #dc3545;
     color: white;
     display: inline-block;
     font-weight: 400;
